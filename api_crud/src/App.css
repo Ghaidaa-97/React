@@ -1,0 +1,26 @@
+table{
+    margin: auto;
+    text-align: center;
+    font-size: 16px;
+    margin-top: 50px;
+    width: 50%;   
+    background-color:rgba(137, 43, 226, 0.273);
+}
+
+tbody tr td{
+    border: 1px solid grey;
+}
+th{
+    border: 1px solid grey;
+}
+
+button{
+    font-size: 17px;
+    margin: auto;
+}
+#b2{
+    background-color: rgb(255, 66, 66);
+}
+#b1{
+    background-color: rgb(255, 182, 47);
+}
