@@ -20,6 +20,12 @@ export default class Home extends Component {
                                         <th>gender</th>
                                         <th>Actions</th>
                                     </tr>
+                                    <tr>
+                                        <td><input type="text" value={value.first_name} onChange={(e)=>{value.updateValue(e ,"first_name")}}/></td>
+                                        <td><input type="text" value={value.last_name} onChange={(e)=>{value.updateValue(e ,"last_name")}}/></td>
+                                        <td><input type="text" value={value.gender} onChange={(e)=>{value.updateValue(e ,"gender")}}/></td>
+                                        <td><button id="b3" onClick={()=>(value.onSave(value.id))}>{value.id ? "Save":"Save"}</button></td>
+                                    </tr>
                                     {value.Alldata.map(product => {
                                         return(
                                             <tr>

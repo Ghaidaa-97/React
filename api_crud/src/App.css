@@ -8,19 +8,22 @@ table{
 }
 
 tbody tr td{
-    border: 1px solid grey;
+    border: 1px solid rgba(128, 128, 128, 0.566);
 }
 th{
-    border: 1px solid grey;
+    border: 1px solid rgba(128, 128, 128, 0.868);
 }
 
 button{
     font-size: 17px;
     margin: auto;
-}
-#b2{
+color: blue;}
+/* #b2{
     background-color: rgb(255, 66, 66);
 }
 #b1{
     background-color: rgb(255, 182, 47);
 }
+#b3{
+    background-color: rgb(255, 182, 47);
+} */
